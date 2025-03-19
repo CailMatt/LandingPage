@@ -85,3 +85,13 @@
     width: 600px;
     margin-left: 50px;
 }
+
+.grid-header{
+    margin-top: 50px;
+    font: 36px "Roboto", sans-serif;
+    color: #1F2937;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+}
+
