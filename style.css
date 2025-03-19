@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background: #1F2937;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navs{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    font: 24px "Roboto", sans-serif;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.link{
+    font: 18px "Roboto", sans-serif;
+    color: #E5E7EB;
+    margin-left: 22px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-container{
+    font: 24px "Roboto", sans-serif;
+    color: #F9FAF8;
+    background: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    height: 450px;
+    width: 100%;
+}
+
+.title-container{
+    width: 500px
+}
+
+.subtext{
+    font: 18px "Roboto", sans-serif;
+    color: #E5E7EB;
+    /*width: 600px;*/
+    flex-wrap: wrap;
+}
+
+.title{
+    font: 48px "Roboto", sans-serif;
+    color: #F9FAF8;
+    font-weight: 900;
+    /*width: 500px;*/
+    flex-wrap: wrap;
+}
+
+.sign-up-button{
+    width: 130px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    background: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    margin-top: 15px;
+}
+
+.mountImg{
+    height: 300px;
+    width: 600px;
+    margin-left: 50px;
+}
