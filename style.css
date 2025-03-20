@@ -95,3 +95,42 @@
     justify-content: center;
 }
 
+.grid-container{
+    display: flex;
+    justify-content: center;
+}
+
+.grid{
+    width: 1000px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.grid#image-grid{
+    height: 200px;
+    margin-top: 20px;
+}
+
+.grid#text-grid{
+    font: 18px "Roboto", sans-serif;
+    margin-top: 10px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.grid-item{
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 30px;
+}
+
+.grid-subtext{
+    font: 18px "Roboto", sans-serif;
+    color: #797979;
+    width: 180px;
+}
